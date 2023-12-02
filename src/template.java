@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class template {
 
-    private static final String FILE_NAME = ".txt";
+    private static final String FILE_NAME = "inputfiles/<replaceme>.txt";
 
     private Scanner sc;
 
     public template() throws IOException {
         handleFileInput(FILE_NAME);
+        solvePuzzle();
     }
 
     public void solvePuzzle() {
