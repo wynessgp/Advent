@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "template",
+            "request": "launch",
+            "mainClass": "template",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
+            "name": "DayFive",
+            "request": "launch",
+            "mainClass": "week1.DayFive",
+            "projectName": "Advent_5a5139e0",
+            "args": "Xmx5G -ea"
+        },
+        {
+            "type": "java",
+            "name": "DayFour",
+            "request": "launch",
+            "mainClass": "week1.DayFour",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
+            "name": "DayOne",
+            "request": "launch",
+            "mainClass": "week1.DayOne",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
+            "name": "DayThree",
+            "request": "launch",
+            "mainClass": "week1.DayThree",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
+            "name": "DayTwo",
+            "request": "launch",
+            "mainClass": "week1.DayTwo",
+            "projectName": "Advent_5a5139e0"
+        }
+    ]
+}
