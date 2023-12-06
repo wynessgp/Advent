@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DaySix",
+            "request": "launch",
+            "mainClass": "week1.DaySix",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

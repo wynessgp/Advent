@@ -9,15 +9,21 @@ public class template {
     private Scanner sc;
 
     public template() throws IOException {
-        handleFileInput(FILE_NAME);
-        solvePuzzle();
+        initScanner();
+        solvePartOne();
+        initScanner();
+        solvePartTwo();
     }
 
-    public void solvePuzzle() {
+    private void solvePartOne() {
 
     }
 
-    private void handleFileInput(String fileName) throws IOException{
+    private void solvePartTwo() {
+
+    }
+
+    private void initScanner() throws IOException{
         // creates a scanner for the provided input
         // and puts it into this.sc
         try {

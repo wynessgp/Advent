@@ -19,7 +19,7 @@ public class DayFive {
         // solvePartTwo();
     }
 
-    public void solvePartOne() {
+    private void solvePartOne() {
         // first... parse the input. as usual.
         HashSet<Long> seedNums = new HashSet<>();
         ArrayList<ArrayList<Long>> numsForMaps = new ArrayList<>();
