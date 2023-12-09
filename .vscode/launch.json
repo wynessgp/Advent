@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DayNine",
+            "request": "launch",
+            "mainClass": "week2.DayNine",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
             "name": "DayEight",
             "request": "launch",
             "mainClass": "week2.DayEight",
