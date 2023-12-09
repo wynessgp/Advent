@@ -137,12 +137,13 @@ public class DayNine {
             for (int i = expandedHistory.size() - 2; i >= 0; i--) {
                 Long prevEndValue = expandedHistory.get(i + 1).get(0);
                 Long curEndValue = expandedHistory.get(i).get(0);
+                // the only thing that really changes here
                 expandedHistory.get(i).add(0, curEndValue - prevEndValue);
             }
             // get the VERY last entry of the first sequence, since we just added on the newest value.
             extrapolatedValuesSum += expandedHistory.get(0).get(0);
         }
-        System.out.println("part 1 extrapolated values sum: " + extrapolatedValuesSum);
+        System.out.println("part 2 extrapolated values sum: " + extrapolatedValuesSum);
     }
 
     private void initScanner() throws IOException{
