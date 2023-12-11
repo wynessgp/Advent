@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DayEleven",
+            "request": "launch",
+            "mainClass": "week2.DayEleven",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
+            "name": "DayTen",
+            "request": "launch",
+            "mainClass": "week2.DayTen",
+            "projectName": "Advent_5a5139e0"
+        },
+        {
+            "type": "java",
             "name": "DayNine",
             "request": "launch",
             "mainClass": "week2.DayNine",
